@@ -17,6 +17,7 @@ const App = () => {
 
   const filterItems = (category) => {
     if (category === "all") {
+      //can't be menuItems
       setMenuItems(menu);
       return;
     }
